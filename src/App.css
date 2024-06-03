@@ -1,0 +1,10 @@
+*{
+  
+  margin:auto;
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+@import url(https://fonts.google.com/specimen/Space+Grotesk);

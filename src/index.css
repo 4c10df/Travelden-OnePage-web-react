@@ -1,0 +1,77 @@
+*{
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: 'Fraunces', serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 800;
+}
+
+h4{ 
+    color: #FFF;
+    text-align: center;
+    font-family:'Montserrat', 'Work Sans';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 49.2px */
+    letter-spacing: -0.82px;
+}
+h5{
+color: var(--White, #FFF);
+font-family: 'Metropolis','Work Sans';
+font-size: 43.5px;
+font-style: normal;
+font-weight: 700;
+line-height: 53.167px; /* 122.222% */
+letter-spacing: -0.87px;
+}
+h6{
+color: #F5811E;
+text-align: center;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Montserrat';
+font-size: 35.689px;
+font-style: normal;
+font-weight: 700;
+line-height: 48.436px; /* 135.714% */
+
+}
+.txt{
+color: #FFF;
+font-family: 'Montserrat';
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: normal; 
+}
+
+
+
+.butt {
+  background: #102228;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.butt:hover {
+  background: #1a3a44;
+  transform: scale(1.05);
+}
+
