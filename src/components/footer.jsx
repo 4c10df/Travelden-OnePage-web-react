@@ -12,7 +12,7 @@ function footer() {
 
   return (
 
-    <footer className="h-auto w-full flex justify-center items-center bg-white pt-11">
+    <footer id="target-section" className="h-auto w-full flex justify-center items-center bg-white pt-11">
       <div className="flex flex-col justify-center items-center relative m-auto py-[30px] px-[15px] w-full 2xl:w-[1280px] at500:px-[20px] md:px-[80px]">
      
         <h6 className=' tracking-normal'>

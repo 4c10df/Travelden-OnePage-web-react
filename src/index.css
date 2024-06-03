@@ -61,17 +61,4 @@ line-height: normal;
 
 
 
-.butt {
-  background: #102228;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s ease, transform 0.3s ease;
-}
-
-.butt:hover {
-  background: #1a3a44;
-  transform: scale(1.05);
-}
 
